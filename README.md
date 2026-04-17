@@ -15,7 +15,7 @@ files to override the behaviour. For example:
 
 ```yml
 overlay:
-    url: 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+    url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
     active: true
     opacity: 1
     position: -1
