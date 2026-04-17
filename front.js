@@ -4,7 +4,7 @@ L.K.Map.addInitHook(function () {
             title = L.DomUtil.create('h3', '', container),
             params = L.extend({
                 tms: false,
-                url: 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
                 active: false,
                 opacity: 0.5,
                 position: 1
